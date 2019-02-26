@@ -15,6 +15,7 @@ public class Sample {
 		System.setProperty("webdriver.chrome.driver", "H:\\Softwares\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.ghmc.gov.in/");
+		System.out.println("going to navigate url");
 
 	}
 
